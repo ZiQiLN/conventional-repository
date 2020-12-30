@@ -1,0 +1,19 @@
+{
+  "name": "@ziqiln/conventional-repository",
+  "version": "0.0.1-alpha.0",
+  "description": "...",
+  "main": "index.js",
+  "author": "Jakub Olan <jakub.olan001@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "commit": "yarn run git-cz"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@commitlint/prompt": "^11.0.0",
+    "commitizen": "^4.2.2",
+    "husky": "^4.3.6"
+  }
+}
