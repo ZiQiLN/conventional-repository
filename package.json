@@ -1,19 +1,32 @@
 {
   "name": "@ziqiln/conventional-repository",
-  "version": "0.0.1-alpha.0",
+  "version": "0.0.0-development",
   "description": "...",
   "main": "index.js",
   "author": "Jakub Olan <jakub.olan001@gmail.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "commit": "yarn run git-cz"
+    "commit": "yarn run git-cz",
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@commitlint/prompt": "^11.0.0",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/commit-analyzer": "^8.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/github": "^7.2.0",
+    "@semantic-release/npm": "^7.0.9",
+    "@semantic-release/release-notes-generator": "^9.0.1",
     "commitizen": "^4.2.2",
-    "husky": "^4.3.6"
+    "husky": "^4.3.6",
+    "prettier": "^2.2.1",
+    "semantic-release": "^17.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZiQiLN/conventional-repository.git"
   }
 }
